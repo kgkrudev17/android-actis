@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity">
+
+    <item
+        android:id="@+id/menuLogin_languageSettings"
+        android:title="@string/login_menu_language_setting_label"
+        android:clickable="true" />
+
+</menu>

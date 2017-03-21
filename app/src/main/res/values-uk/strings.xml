@@ -1,0 +1,364 @@
+<resources>
+    <string name="app_name">КГК Актис</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Strings for utility purpose -->
+    <string name="crash_toast_text">Додаток зупинено</string>
+    <string name="updating_label">Оновлення</string>
+    <string name="new_version_available_label">Доступна нова версія додатка</string>
+    <string name="download_label">Завантажити</string>
+
+    <!-- Strings for action bars -->
+    <string name="device_list_activity_action_bar_label">Пристрої</string>
+    <string name="information_action_bar_label">Інформація</string>
+    <string name="history_action_bar_label">Історія</string>
+    <string name="path_action_bar_label">Трек</string>
+    <string name="date_picker_action_bar_label">Період</string>
+    <string name="map_custom_action_bar_label">Мапа</string>
+    <string name="settings_action_bar_label">Налаштування</string>
+
+    <!-- Strings for LoginFragment -->
+    <string name="login_hint">Користувач</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_button_label">Вхід</string>
+    <string name="remember_me_text">Запам’ятати користувача</string>
+    <string name="try_demo_button_label">Демо</string>
+    <string name="wrong_login_or_password_label">Неправильне ім\'я користувача або пароль</string>
+    <string name="login_progress_dialog_title">Вхід…</string>
+    <string name="login_progress_dialog_message">Аутентифікація</string>
+    <string name="no_registered_devices_toast">У вас немає зареєстрованих пристроїв</string>
+    <string name="server_error">Помилка сервера</string>
+
+    <!-- Strings for ProductActivity -->
+    <string name="product_activity_title">Продукты компании</string>
+
+    <!-- Strings for DeviceListFragment -->
+    <string name="development_progress_dialog_title">Увага</string>
+    <string name="development_progress_dialog_message">Поточна версія програми підтримує тільки охоронні маячки Actis</string>
+    <string name="ordering_by_type_label">За типами</string>
+    <string name="ordering_by_group_label">По групах</string>
+
+    <!-- Strings for InformationFragment -->
+    <string name="detecting_mode_text">Періодичне повідомлення через заданий інтервал</string>
+    <string name="last_positioning_text">Останній сигнал:</string>
+    <string name="last_action_text">Остання команда:</string>
+    <string name="satellites_label">Супутники</string>
+    <string name="voltage_label">Напруга</string>
+    <string name="speed_label">Швидкість</string>
+    <string name="charge_label">Батарея</string>
+    <string name="direction_label">Напрямок</string>
+    <string name="balance_label">Баланс</string>
+    <string name="temperature_label">Температура</string>
+    <string name="query_button_label">Запит</string>
+    <string name="history_button_label">Історія</string>
+    <string name="search_on_button_label">Пошук</string>
+    <string name="search_off_button_label">Пошук: Викл</string>
+    <string name="map_button_label">Мапа</string>
+    <string name="settings_button_label">Налаштування</string>
+    <string name="search_label">Пошук</string>
+    <string name="no_signals_toast">Немає сигналів</string>
+    <string name="search_mode_dialog_title">Режим пошуку</string>
+    <string name="search_mode_dialog_on">Ви впевнені, що хочете включити режим пошуку?</string>
+    <string name="search_mode_dialog_off">Ви впевнені, що хочете вимкнути режим пошуку?</string>
+    <string name="download_data_progress_dialog_title">Завантаження…</string>
+    <string name="download_data_progress_dialog_message">Завантаження даних з сервера</string>
+    <string name="download_error_toast">Помилка завантаження даних</string>
+    <string name="query_too_early_dialog_message">Команда вже відправлена. Очікування відповіді від устройства Actis…</string>
+    <string name="demo_warning_dialog_message">Ця функція недоступна в демо режимі</string>
+    <string name="awaiting_confirmation_dialog_message">Налаштування вже відправлені. Очікування підтвердження на пристрої Actis…</string>
+    <string name="on_actis_query_success_message">Команда на разовое определение местоположения отправлена. Ожидайте получение координат устройства…</string>
+    <string name="on_actis_search_turned_on_message">Команда включения Автопоиска отправлена. Ожидайте сообщения с координатами устройства каждые 20 минут</string>
+    <string name="on_actis_search_turned_off_message">Команда выключения Автопоиска отправлена</string>
+    <string name="balance_view_label">Баланс:</string>
+    <string name="preparing_data_message">Подготовка данных</string>
+    <string name="payment_action_label">Пополнить</string>
+    <string name="currency_label">руб.</string>
+
+    <!-- Strings for HistoryFragment -->
+    <string name="select_period_button_label">Період</string>
+    <string name="track_button_label">Трек</string>
+    <string name="list_item_satellites_sign">сп</string>
+    <string name="list_item_speed_sign"> км/г</string>
+    <string name="list_item_temperature_sign">°C</string>
+    <string name="list_item_voltage_sign">В</string>
+    <string name="list_item_balance_sign">р</string>
+    <string name="track_drawing_in_progress_dialog_message">Підготовка треку…</string>
+    <string name="choose_period_dialog_message">Оберіть період для побудови Треку</string>
+
+    <!-- String for DatePickerFragment -->
+    <string name="action_bar_label">Період</string>
+    <string name="header_label">Відображати сигнали</string>
+    <string name="from_label">З</string>
+    <string name="to_label">По</string>
+    <string name="date_button_label">Дата</string>
+    <string name="time_button_label">Час</string>
+    <string name="date_picker_dialog_title">Вкажіть дату</string>
+    <string name="time_picker_dialog_title">Вкажіть час</string>
+    <string name="wrong_period_message">Вказаний некоректний період</string>
+    <string name="not_all_fields_selected_message">Заповніть усі поля</string>
+
+    <!-- Strings for SettingsFragment -->
+    <string name="timezone_label">Часовий пояс</string>
+    <string name="time_of_signal_label">Час сигналу</string>
+    <string name="on_command_send_toast">Команда відправлена</string>
+    <string name="on_command_send_error_toast">Помилка відправки комманди</string>
+    <string name="no_internet_connection_message">Відсутнє інтернет-з\'єднання</string>
+    <string name="balance_request_command_wrong_field_message">Занадто довга команда запиту балансу</string>
+    <string name="connection_period_label">Кількість сигналів</string>
+    <string name="connection_per_day_label">на добу</string>
+    <string name="connection_per_week_label">в тиждень</string>
+    <string name="number_of_sms_omissions_label">К-ть пропусків відправки СМС</string>
+    <string name="gps_positioning_period_label">Час визначення GPS (хв.)</string>
+    <string name="balance_control_limit_label">Поріг контролю балансу (руб.)</string>
+    <string name="balance_request_command_label">Команда запиту балансу</string>
+    <string name="gprs_label">GPRS</string>
+    <string name="send_button_label">Відправити</string>
+    <string name="settings_gprs_spinner_on">Вкл</string>
+    <string name="settings_gprs_spinner_off">Викл</string>
+
+    <!-- Strings for MonitoringActivity -->
+    <string name="monitoring_activity_toolbar_title">Місцеположення</string>
+    <string name="daily_track_button_label">Трек за день</string>
+    <string name="current_location_button_label">Місцеположення</string>
+    <string name="report_button_label">Детальний звіт</string>
+    <string name="location_button_label">Місцезнаходження</string>
+    <string name="no_data_for_device_message">Немає даних по влаштуванню</string>
+    <string name="device_current_location_menu_description">Меню</string>
+    <string name="select_map_dialog_title">Виберіть карту</string>
+    <string name="kgk_map">OSM KGK</string>
+    <string name="osm_map">OSM</string>
+    <string name="satellite_map">Супутник</string>
+    <string name="hybrid_map">Гібрид</string>
+    <string name="google_map">Google</string>
+
+    <!-- Strings for DetailReportActivity -->
+    <string name="detail_report_activity_toolbar_title">Детальный отчет</string>
+    <string name="building_detail_report_label">Период</string>
+    <string name="delta_hint">Минимальное время остановки (сек)</string>
+    <string name="offset_hint">Смещение времени от UTC (мин)</string>
+
+    <!-- Strings for HelpScreen -->
+    <string name="help_screen_title">Допомога</string>
+    <string name="query_function_description">Кнопка <b>Пошук</b> - дозволяє відправляти
+        пристрою повідомлення для отримання поточних координат його місця розташування.</string>
+    <string name="search_function_description">Кнопка <b>Пошук</b> - служить для включення/вимикання режиму <b>Пошук</b>.
+        Після включення режиму <b>Пошук</b> пристрій кожні 20 хвилин виходить на зв\'язок і відправляє координати свого місця розташування.
+        Для виходу з режиму <b>Пошук</b> необхідно повторно натиснути кнопку <b>Пошук</b>.</string>
+    <string name="history_screen_description">Вікно <b>Історія</b> - содержит информацию о всех сигналах, які прийшли з пристрою.
+        Ця інформація відображається у вигляді складеного списку дат. При виборі конкретної дати будуть показані всі сигнали за цю дату.</string>
+    <string name="from_history_screen_navigation_description">З вікна історії можна перейти в вікно
+        вибору періоду (кнопка <b>Період</b>) і вікно відображення треку (кнопка <b>Трек</b>).</string>
+    <string name="period_screen_description">Вікно <b>Період</b> - дозволяє вибрати часовий
+        проміжок, за який необхідно переглянути сигнали, що надійшли від пристрою.
+        Введіть необхідну дату і час у відповідні поля і натисніть <b>ОК</b>.</string>
+    <string name="track_screen_description">Вікно <b>Трек</b> - це повнорозмірна карта, на якій
+        відображається трек, що складається з маркерів. Положення кожного з маркерів відповідає
+        останньому відправленому з пристрою сигналу (зберігаються в списку історії). Натискання на
+        маркер призводить до появи інформації за відповідним сигналом.</string>
+    <string name="auto_search_description_title">Вмикач А режиму Пошук</string>
+    <string name="auto_search_description">В режиме Автопоиск устройство каждые 20 минут
+        выходит на связь и отправляет координаты своего местоположения.\n\n
+
+        Включение режима Автопоиск\n\n
+        @1\n\n
+
+        Для включения режима Автопоиск сдвиньте ползунок с изображением
+        серого замка вправо. При этом цвет замка изменится на желтый. В
+        зависимости от настроек устройства, время ожидания включения режима
+        Автопоиск может составить от 1 минуты до 24 часов. В течение указанного
+        промежутка времени цвет замка будет оставаться желтым. В момент
+        включения режима Автопоиск цвет замка изменится на зеленый.\n\n
+
+        Выключение режима Автопоиск\n\n
+        @2\n\n
+
+        Для выключения режима Автопоиск сдвиньте ползунок с изображением
+        зеленого замка влево. Цвет замка изменится на желтый. В зависимости от
+        момента отправки команды устройству, время ожидания выключения
+        режима Автопоиск составит от 1 до 20 минут. В течение указанного
+        промежутка времени цвет замка будет оставаться желтым. В момент
+        выключения режима Автопоиск цвет замка изменится на серый.
+    </string>
+    <string name="auto_search_on_label">Включение режима Автопоиск</string>
+    <string name="auto_search_off_label">Выключение режима Автопоиск</string>
+    <string name="turning_on_word">включения</string>
+    <string name="turning_off_word">выключения</string>
+    <string name="grey_word_1">серого</string>
+    <string name="grey_word_2">серый</string>
+    <string name="yellow_word_1">желтый</string>
+    <string name="yellow_word_2">желтым</string>
+    <string name="green_word_1">зеленый</string>
+    <string name="green_word_2">зеленого</string>
+    <string name="lbs_description_title">Определение координат устройства по вышкам GSM</string>
+    <string name="lbs_description">Это режим, при котором координаты объекта (устройства)
+        определяются по базовым станциям оператора сотовой связи.
+        Данный режим используется в случае неустойчивого или полного отсутствия сигнала со спутников
+        GPS/GLONASS (например, при нахождении объекта (устройства) на подземной стоянке, в бетонном
+        паркинге, в цельнометаллическом гараже).
+        Зона предполагаемого местонахождения объекта (устройства) выделяется на карте
+        полупрозрачным кругом розового цвета (радиусом 800 м) с центром в месте нахождения
+        базовой станции оператора сотовой связи.</string>
+
+    <!-- Strings for Language Settings -->
+    <string name="login_menu_language_setting_label">Мова інтерфейсу</string>
+    <string name="english_language_label">Англійська</string>
+    <string name="russian_language_label">Русский</string>
+    <string name="ukrainian_language_label">Український</string>
+    <string name="language_picker_dialog_title">Оберіть мову</string>
+
+    <!-- Strings for direction -->
+    <string name="direction_north">С</string>
+    <string name="direction_north_east">СВ</string>
+    <string name="direction_east">В</string>
+    <string name="direction_south_east">ЮВ</string>
+    <string name="direction_south">Ю</string>
+    <string name="direction_south_west">ЮЗ</string>
+    <string name="direction_west">З</string>
+    <string name="direction_north_west">СЗ</string>
+
+    <!-- Generator strings -->
+    <string name="activity_generator_main_main_image_description">Автомат ввода резерва</string>
+    <string name="toolbar_generator_main_working_time_label">Час роботи:</string>
+    <string name="toolbar_generator_main_history_button_label">
+Істрія</string>
+    <string name="toolbar_generator_main_status_label_online">онлайн</string>
+    <string name="activity_generator_main_auto_button_label">Автоматичне</string>
+    <string name="activity_generator_main_manual_button_label">
+Ручне</string>
+    <string name="activity_generator_main_emergency_button_label">Аварійна зупинка</string>
+    <string name="activity_generator_main_fuel_indicator_label">РІВЕНЬ ПАЛИВА</string>
+    <string name="activity_generator_main_oil_indicator_label">РІВЕНЬ МАСЛА</string>
+    <string name="activity_generator_history_hours_label">годин</string>
+    <string name="activity_generator_history_minutes_label">хвилин</string>
+
+    <!-- MONITORING MODULE -->
+
+    <!-- Map screen -->
+    <string name="monitoring_device_gsm">Уровень сигнала</string>
+    <string name="monitoring_information_bar_title">Транспортное средство</string>
+    <string name="monitoring_downloading_data">Загрузка данных</string>
+    <string name="monitoring_kgk_map_label">КГК</string>
+    <string name="monitoring_osm_map_label">OSM</string>
+    <string name="monitoring_google_map_type">Google</string>
+    <string name="monitoring_satellite_map_type">Спутник</string>
+    <string name="monitoring_choose_vehicle">Выбор ТС</string>
+    <string name="monitoring_choose_vehicle_group">Выбор группы ТС</string>
+    <string name="monitoring_route_report_settings">Настройки детального отчета</string>
+    <string name="monitoring_profile">Профиль</string>
+    <string name="monitoring_settings">Настройки</string>
+    <string name="monitoring_help">Помощь</string>
+    <string name="monitoring_about">О приложении</string>
+    <string name="monitoring_no_data_for_device">Нет данных по устройству</string>
+
+    <!-- Route report screen -->
+    <string name="monitoring_route_report_screen_title">Детальный отчет</string>
+    <string name="monitoring_route_report_speed_measure">км/ч</string>
+    <string name="monitoring_route_report_event_type">Событие</string>
+    <string name="monitoring_route_report_speed">Скорость</string>
+    <string name="monitoring_route_report_satellites">спутники</string>
+    <string name="monitoring_route_report_gsm">GSM</string>
+    <string name="monitoring_route_report_empty_field">--</string>
+    <string name="monitoring_route_report_default_seekbar_time">00:00</string>
+    <string name="monitoring_route_report_start">Начало:</string>
+    <string name="monitoring_route_report_end">Конец:</string>
+    <string name="monitoring_route_report_duration">Длительность:</string>
+    <string name="monitoring_route_report_parking">Стоянка</string>
+    <string name="monitoring_route_report_moving">Движение</string>
+
+    <!-- Monitoring entity screen -->
+    <string name="monitoring_entity_screen_mark">Марка:</string>
+    <string name="monitoring_entity_screen_model">Модель:</string>
+    <string name="monitoring_entity_screen_state_number">Гос. номер:</string>
+    <string name="monitoring_entity_screen_id">ID:</string>
+    <string name="monitoring_entity_screen_current_state">Текущее состояние</string>
+    <string name="monitoring_entity_screen_status">Статус:</string>
+    <string name="monitoring_entity_screen_speed">Скорость:</string>
+    <string name="monitoring_entity_screen_last_update">Последнее обновление:</string>
+    <string name="monitoring_entity_screen_gsm">GSM:</string>
+    <string name="monitoring_entity_screen_satellites">Спутники:</string>
+    <string name="monitoring_entity_screen_direction">Направление:</string>
+    <string name="monitoring_entity_screen_ignition">Зажигание:</string>
+    <string name="monitoring_entity_screen_route_report_button_label">Детальный отчет</string>
+    <string name="monitoring_entity_screen_at">в</string>
+    <string name="monitoring_entity_screen_ignition_on">ВКЛ</string>
+    <string name="monitoring_entity_screen_ignition_off">ВЫКЛ</string>
+    <string name="monitoring_entity_screen_title">Информация</string>
+    <string name="monitoring_entity_screen_moving_status">Движение</string>
+    <string name="monitoring_entity_screen_parking_status">Стоянка</string>
+    <string name="monitoring_entity_screen_offline_status">Не в сети</string>
+    <string name="monitoring_entity_screen_block_engine_button_label">Заблокировать двигатель</string>
+    <string name="monitoring_entity_screen_unblock_engine_button_label">Разблокировать двигатель</string>
+
+    <!-- Choose vehicle screen -->
+    <string name="monitoring_choose_vehicle_screen_sorting">Сортировка</string>
+    <string name="monitoring_choose_vehicle_screen_on_map">На карте</string>
+    <string name="monitoring_choose_vehicle_screen_title">Выбор ТС</string>
+    <string name="monitoring_choose_vehicle_screen_moving_status">движение</string>
+    <string name="monitoring_choose_vehicle_screen_parking_status">стоянка</string>
+    <string name="monitoring_choose_vehicle_screen_offline_status">не в сети</string>
+    <string name="monitoring_choose_vehicle_screen_updated">обновлено</string>
+    <string name="monitoring_choose_vehicle_screen_at">в</string>
+    <string name="monitoring_choose_vehicle_screen_north_east">СВ</string>
+    <string name="monitoring_choose_vehicle_screen_east">В</string>
+    <string name="monitoring_choose_vehicle_screen_south_east">ЮВ</string>
+    <string name="monitoring_choose_vehicle_screen_south">Ю</string>
+    <string name="monitoring_choose_vehicle_screen_south_west">ЮЗ</string>
+    <string name="monitoring_choose_vehicle_screen_west">З</string>
+    <string name="monitoring_choose_vehicle_screen_north_west">СЗ</string>
+    <string name="monitoring_choose_vehicle_screen_north">С</string>
+    <string name="monitoring_choose_vehicle_screen_alphabet">По алфавиту</string>
+    <string name="monitoring_choose_vehicle_screen_status">По состоянию</string>
+
+    <!-- Choose vehicle group screen -->
+    <string name="monitoring_choose_vehicle_group_screen_devices">устройства</string>
+    <string name="monitoring_choose_vehicle_group_screen_title">Выбор группы ТС</string>
+    <string name="monitoring_choose_vehicle_group_screen_show_all_devices_button_label">Показать все устройства</string>
+
+    <!-- Route report settings screen -->
+    <string name="monitoring_route_report_settings_screen_report_start">Начало отчета</string>
+    <string name="monitoring_route_report_settings_screen_report_end">Конец отчета</string>
+    <string name="monitoring_route_report_settings_screen_from">С:</string>
+    <string name="monitoring_route_report_settings_screen_to">По:</string>
+    <string name="monitoring_route_report_settings_screen_extended_settings">Дополнительные настройки</string>
+    <string name="monitoring_route_report_settings_screen_stop_time">Максимальная длительность стоянки</string>
+    <string name="monitoring_route_report_settings_screen_stop_time_hint">Секунды</string>
+    <string name="monitoring_route_report_settings_screen_no_data">Показывать участки без данных</string>
+    <string name="monitoring_route_report_settings_screen_make_report_button_label">Построить отчет</string>
+    <string name="monitoring_route_report_settings_screen_title">Настройки детального отчета</string>
+    <string name="monitoring_route_report_settings_screen_dates_not_valid">Неверно указаны даты</string>
+    <string name="monitoring_route_report_settings_screen_dates_limit">Максимальный период отчета -
+        30 дней</string>
+
+    <!-- Profile screen -->
+    <string name="monitoring_profile_screen_replenish_balance"><u>Пополнить</u></string>
+    <string name="monitoring_profile_screen_rub">руб.</string>
+    <string name="monitoring_profile_screen_title">Профиль</string>
+    <string name="monitoring_profile_screen_login">Имя пользователя:</string>
+    <string name="monitoring_profile_screen_contacts">Контакты:</string>
+    <string name="monitoring_profile_screen_balance">Баланс:</string>
+    <string name="monitoring_profile_screen_sign_out_button_label">Выйти из аккаунта</string>
+
+    <!-- Settings screen -->
+    <string name="monitoring_settings_screen_map_layout">Отображение карты</string>
+    <string name="monitoring_settings_screen_map">Карта:</string>
+    <string name="monitoring_settings_screen_kgk">КГК</string>
+    <string name="monitoring_settings_screen_osm">OSM</string>
+    <string name="monitoring_settings_screen_google">Google</string>
+    <string name="monitoring_settings_screen_satellite">Спутник</string>
+    <string name="monitoring_settings_screen_additional_marker_info">Отображать дополнительную
+        информацию рядом со значком ТС на карте</string>
+    <string name="monitoring_settings_screen_title">Настройки</string>
+
+    <!-- Help screen -->
+    <string name="monitoring_help_screen_title">Помощь</string>
+
+    <!-- About screen -->
+    <string name="monitoring_about_screen_title">О приложении</string>
+    <string name="monitoring_about_screen_app_version_not_found">----</string>
+    <string name="monitoring_about_screen_version">Версия:</string>
+    <string name="monitoring_about_screen_last_update">Последнее обновление:</string>
+    <string name="monitoring_about_screen_developer">Разработчик:</string>
+    <string name="monitoring_about_screen_developer_name">КГК</string>
+
+</resources>
